@@ -1,24 +1,14 @@
-# Da## Características
+# Características
 
-- 🎮 Interface visual com GIF animado do knight (100x100px) e balão de fala (220x140px)
-- ⌨️ Ativação/desativação com Ctrl+Alt+Shift+S
-- ⏰ Aparece automaticamente a cada 5 minutos por 15 segundos
-- 🎯 Posicionamento no canto inferior esquerdo da tela
-- 🌟 Fundo transparente
-- 📝 Sistema de dicas facilmente personalizável
-- 🎨 Layout vertical: balão de fala acima do knightBuddy - Amigo Virtual para Kali Linux
+- Interface visual com GIF animado do knight (100x100px) e balão de fala (220x140px)
+- Ativação/desativação com Ctrl+Alt+Shift+S
+- Aparece automaticamente a cada 5 minutos por 15 segundos
+- Posicionamento no canto inferior esquerdo da tela
+- Fundo transparente
+- Sistema de dicas facilmente personalizável
+- Layout vertical: balão de fala acima do knightBuddy - Amigo Virtual para Kali Linux
 
 Um assistente virtual inspirado em Dark Souls que aparece na tela com dicas personalizadas de segurança e programação.
-
-## Características
-
-- 🎮 Interface visual com GIF animado do knight (100x100px) e balão de fala (220x140px)
-- ⌨️ Ativação/desativação com Ctrl+Alt+S
-- ⏰ Aparece automaticamente a cada 5 minutos por 15 segundos
-- 🎯 Posicionamento no canto inferior esquerdo da tela
-- 🌟 Fundo completamente transparente (sem fundo preto)
-- 📝 Sistema de dicas facilmente personalizável
-- � Layout horizontal: knight à esquerda, balão começando na metade do knight
 
 ## Instalação
 
