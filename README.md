@@ -14,11 +14,6 @@ Um assistente virtual inspirado em Dark Souls que aparece na tela com dicas pers
 
 1. **Instalar dependências:**
    ```bash
-   ./install_dependencies.sh
-   ```
-
-2. **Ou instalar manualmente:**
-   ```bash
    sudo apt update
    sudo apt install python3 python3-pip python3-tk
    pip3 install --user pillow pynput
