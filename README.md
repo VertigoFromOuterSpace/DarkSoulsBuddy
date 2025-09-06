@@ -1,3 +1,5 @@
+# Não testei no windows!! Uso Linux!!!!
+
 # Características
 
 - Interface visual com GIF animado do knight (100x100px) e balão de fala (220x140px)
