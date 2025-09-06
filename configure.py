@@ -9,8 +9,7 @@ import os
 
 def generate_config():
     print("=== Configurador do Dark Souls Buddy ===\n")
-    
-    # Configurações de tempo
+
     print("Configurações de Tempo:")
     tip_duration = input("Por quantos segundos as dicas devem ficar visíveis? (padrão: 15): ").strip()
     if not tip_duration:
@@ -20,10 +19,9 @@ def generate_config():
     if not auto_interval:
         auto_interval = "5"
     
-    # Converter minutos para segundos
+
     auto_interval_seconds = int(auto_interval) * 60
-    
-    # Configurações visuais
+
     print("\nConfigurações Visuais:")
     transparency = input("Transparência da janela (0.1 a 1.0, padrão: 0.9): ").strip()
     if not transparency:
@@ -41,7 +39,7 @@ def generate_config():
     if not knight_size:
         knight_size = "150"
     
-    # Dicas personalizadas
+
     print("\nDicas Personalizadas:")
     print("Digite suas dicas (uma por linha). Digite 'FIM' quando terminar:")
     
@@ -52,8 +50,7 @@ def generate_config():
             break
         if tip:
             custom_tips.append(tip)
-    
-    # Se não digitou dicas personalizadas, usar as padrão
+
     if not custom_tips:
         print("Nenhuma dica personalizada adicionada. Usando dicas padrão.")
         custom_tips = [
@@ -64,7 +61,7 @@ def generate_config():
             "Use VPN ao acessar redes públicas."
         ]
     
-    # Gerar arquivo de configuração
+    
     config_content = f"""# Configuração do Dark Souls Buddy
 # Arquivo gerado automaticamente pelo configurador
 
@@ -89,27 +86,27 @@ KNIGHT_SIZE = {knight_size}  # Tamanho do GIF do knight
 TEXT_WRAP_WIDTH = 30  # Número de caracteres por linha no texto
 """
     
-    # Salvar arquivo
+    
     with open('config.py', 'w', encoding='utf-8') as f:
         f.write(config_content)
     
-    print(f"\n✅ Configuração salva em config.py!")
-    print(f"📊 Resumo da configuração:")
+    print(f"\n Configuração salva em config.py!")
+    print(f" Resumo da configuração:")
     print(f"   - Dicas ficam visíveis por {tip_duration} segundos")
     print(f"   - Dicas automáticas a cada {auto_interval} minutos")
     print(f"   - Transparência: {transparency}")
     print(f"   - Tamanho do balão: {balloon_width}x{balloon_height}")
     print(f"   - Tamanho do knight: {knight_size}x{knight_size}")
     print(f"   - Total de dicas: {len(custom_tips)}")
-    print(f"\n🚀 Para executar o Dark Souls Buddy, use: python3 dark_souls_buddy.py")
+    print(f"\n Para executar o Dark Souls Buddy, use: python3 dark_souls_buddy.py")
 
 def main():
     try:
         generate_config()
     except KeyboardInterrupt:
-        print("\n\n❌ Configuração cancelada.")
+        print("\n\nConfiguração cancelada.")
     except Exception as e:
-        print(f"\n❌ Erro: {e}")
+        print(f"\nErro: {e}")
 
 if __name__ == "__main__":
     main()
