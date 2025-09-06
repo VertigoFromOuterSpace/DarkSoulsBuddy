@@ -49,7 +49,6 @@ TIPS = [
 
 TIP_DURATION = 15  # Quanto tempo a dica fica visível
 AUTO_INTERVAL = 300  # Intervalo entre dicas automáticas (5 minutos)
-
 WINDOW_TRANSPARENCY = 0.9
 BALLOON_WIDTH = 220
 BALLOON_HEIGHT = 140
