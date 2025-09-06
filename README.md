@@ -1,4 +1,4 @@
-# Não testei no windows!! Uso Linux!!!!
+# Não testei no windows, uso linux!!
 
 # Características
 
