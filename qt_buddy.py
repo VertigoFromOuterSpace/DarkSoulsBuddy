@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Dark Souls Buddy - Versão Final
+Dark Souls Buddy
 - Usa o método "baralho de cartas" para dicas aleatórias sem repetição.
 """
 
@@ -52,8 +52,7 @@ class BuddyWindow(QtWidgets.QWidget):
         self.container.addWidget(self.text_label)
         self.container.addWidget(self.knight_label)
 
-        # ### MUDANÇA: Lógica do "Baralho de Cartas" ###
-        self.shuffled_tips = [] # Começa com o baralho vazio
+        self.shuffled_tips = []
 
         # Timers e estado
         self.display_timer = QtCore.QTimer(self)
@@ -102,15 +101,12 @@ class BuddyWindow(QtWidgets.QWidget):
         self.is_showing = True
         self.display_timer.start(TIP_DURATION * 1000)
 
-    # ### MUDANÇA: Função principal de dicas ###
     def show_shuffled_tip(self):
-        # Se o baralho estiver vazio, reembaralha
         if not self.shuffled_tips:
             print("DEBUG: Baralho de dicas vazio. Reembaralhando...")
-            self.shuffled_tips = list(TIPS) # Pega uma cópia fresca da lista
+            self.shuffled_tips = list(TIPS)
             random.shuffle(self.shuffled_tips)
-        
-        # Pega a próxima dica do topo do baralho e a remove da lista
+
         tip_to_show = self.shuffled_tips.pop()
         self.show_tip(tip_to_show)
 
@@ -123,7 +119,7 @@ class BuddyWindow(QtWidgets.QWidget):
         if self.is_showing:
             self.hide_buddy()
         else:
-            self.show_shuffled_tip() # MUDANÇA
+            self.show_shuffled_tip()
 
 class Application(QtWidgets.QApplication):
     def __init__(self, argv):
@@ -167,7 +163,7 @@ if __name__ == '__main__':
         sys.exit(1)
 
     app = Application(sys.argv)
-    print('✅ Dark Souls Buddy (Versão Final) iniciado.')
-    print('🖱️  Clique com o botão direito no ícone na bandeja do sistema para ver as opções.')
-    print('⌨️  Atalho Ctrl+Alt+Shift+S (pynput) está ativo.')
+    print('Dark Souls Buddy (Versão Final) iniciado.')
+    print('Clique com o botão direito no ícone na bandeja do sistema para ver as opções.')
+    print('Atalho Ctrl+Alt+Shift+S (pynput) está ativo.')
     sys.exit(app.exec_())
