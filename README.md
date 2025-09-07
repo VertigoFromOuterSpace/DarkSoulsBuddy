@@ -1,4 +1,5 @@
 # Não testei no windows, uso linux!!
+<img width="225" height="249" alt="Screenshot From 2025-09-05 15-06-51" src="https://github.com/user-attachments/assets/ed9217d9-27bd-4eb0-8f20-b4e1e4a31ef9" />
 
 # Características
 
