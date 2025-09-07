@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🏰 Dark Souls Buddy - Launcher"
+echo "Dark Souls Buddy - Launcher"
 echo "================================"
 cd "$(dirname "$0")"
 
