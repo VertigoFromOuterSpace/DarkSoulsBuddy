@@ -1,6 +1,6 @@
 # Não testei no windows, uso linux!!
 <img width="268" height="203" alt="image" src="https://github.com/user-attachments/assets/122b2535-645d-4226-9526-792b53749968" />
-
+Autor da pixel art original: (finaldemo)(https://imgur.com/gallery/awesome-dark-souls-pixel-art-moUGC)
 
 # Características
 
