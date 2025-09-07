@@ -164,15 +164,6 @@ def add_contextual_tip(self, context):
 
 Este projeto é de código aberto. Sinta-se livre para modificar e distribuir.
 
-## Contribuições
-
-Contribuições são bem-vindas! Algumas ideias:
-- Novos temas visuais
-- Mais opções de configuração
-- Integração com outras ferramentas
-- Dicas contextuais baseadas no que está sendo executado
-- Sistema de notificações mais avançado
-
 ---
 
 **Enjoy your Dark Souls Buddy! ⚔️**
