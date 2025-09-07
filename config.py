@@ -44,10 +44,30 @@ TIPS = [
     "Organize seu espaço de trabalho. Uma mesa limpa ajuda a ter uma mente clara.",
     "Automatize tarefas repetitivas. Se você faz algo mais de três vezes, escreva um script.",
     "Antes de começar a codificar, planeje em um papel ou pseudocódigo. Isso economiza tempo."
+    "Precisa encontrar um arquivo? Use 'find . -name \"*parte_do_nome*\"'.",
+    "Para procurar texto dentro de arquivos, 'grep -r \"palavra\" .' é seu melhor amigo.",
+    "O comando 'history | grep comando' ajuda a encontrar um comando que você já usou.",
+    "Use 'df -h' para verificar o espaço livre em disco de forma legível.",
+    "O comando 'du -sh *' mostra o tamanho de cada arquivo/pasta no diretório atual.",
+    "Para ver informações detalhadas sobre sua CPU, use 'lscpu'.",
+    "Precisa saber seu IP na rede local? Use 'ip addr show' ou 'hostname -I'.",
+    "Monitore os processos em tempo real de forma interativa com 'htop' (instale se não tiver).",
+    "O comando 'tar -czvf arquivo.tar.gz /caminho/para/pasta' cria um arquivo compactado.",
+    "Para extrair um arquivo .tar.gz, use 'tar -xzvf arquivo.tar.gz'.",
+    "Use 'chmod +x nome_do_script.sh' para tornar um script executável.",
+    "Com 'Ctrl+R' no terminal, você pode pesquisar no seu histórico de comandos.",
+    "O comando 'ln -s /caminho/original /caminho/do/atalho' cria um link simbólico (atalho).",
+    "Para ver as últimas linhas de um log em tempo real, use 'tail -f /var/log/syslog'.",
+    "Use 'ps aux | grep nome_do_processo' para encontrar o ID de um processo específico.",
+    "Para parar um processo, use 'kill PID'. Se não funcionar, 'kill -9 PID' (use com cuidado!).",
+    "O comando 'wget url_do_arquivo' baixa um arquivo diretamente pelo terminal.",
+    "Com 'scp usuario@host:/caminho/remoto /caminho/local' você copia arquivos de um servidor via SSH.",
+    "Precisa executar um comando como superusuário? Inicie a linha com 'sudo !!'.",
+    "Use 'cat /etc/os-release' para ver informações detalhadas sobre sua distribuição Linux."
 ]
 
-TIP_DURATION = 15  # Quanto tempo a dica fica visível
-AUTO_INTERVAL = 300  # Intervalo entre dicas automáticas (5 minutos)
+TIP_DURATION = 15
+AUTO_INTERVAL = 300
 WINDOW_TRANSPARENCY = 0.9
 BALLOON_WIDTH = 220
 BALLOON_HEIGHT = 140
