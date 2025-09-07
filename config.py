@@ -1,5 +1,4 @@
 TIPS = [
-    # Cibersegurança - Defesa (Blue Team)
     "Lembre-se de sempre fazer backup dos seus dados importantes! (Regra 3-2-1: 3 cópias, 2 mídias, 1 offline)",
     "Use senhas fortes e únicas para cada conta. Um gerenciador de senhas pode ajudar.",
     "Mantenha seu sistema sempre atualizado com 'sudo apt update && sudo apt full-upgrade'.",
